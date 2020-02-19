@@ -1,14 +1,17 @@
 package q4;
+
 import utilities.CommonUtilities;
 
 public class CountSymbols {
 
   static void getCount(String s) {
 
-    int lowerCount = 0, upperCount = 0, digitCount = 0, specialCharCount = 0;
+    double lowerCount = 0, upperCount = 0, digitCount = 0, specialCharCount = 0;
     char c;
 
-    for (int i = 0; i < s.length(); i++) {
+    int len = s.length();
+
+    for (int i = 0; i < len; i++) {
       c = s.charAt(i);
 
       if (isLower(c)) lowerCount++;
@@ -18,17 +21,17 @@ public class CountSymbols {
     }
 
     System.out.println("Type : Count : %age");
-    System.out.println("Lower : " + lowerCount);
-    System.out.println("Upper : " + upperCount);
-    System.out.println("Digit : " + digitCount);
-    System.out.println("Others/Special : " + specialCharCount);
+    System.out.println("Lower : " + (int)lowerCount + " : " + ((lowerCount / len) * 100));
+    System.out.println("Upper : " + (int)upperCount + " : " + ((upperCount / len) * 100));
+    System.out.println("Digit : " + (int)digitCount + " : " + ((digitCount / len) * 100));
+    System.out.println(
+        "Others/Special : " + (int)specialCharCount + " : " + ((specialCharCount / len) * 0.01));
   }
 
   public static void main(String[] args) {
 
-    String input = CommonUtilities.getStringFromUser(); //I made this function
+    String input = CommonUtilities.getStringFromUser(); // I made this function
     getCount(input);
-
   }
 
   static boolean isLower(char c) {
