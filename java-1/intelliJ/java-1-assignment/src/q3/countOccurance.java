@@ -18,7 +18,7 @@ public class countOccurance {
   public static void countFrequency(String str) {
 
     // Wrapper function for countFreq()
-    int table[] = new int[255];
+    int table[] = new int[256];
     countFreq(str, 0, table);
 
     System.out.println("Character : Count");
