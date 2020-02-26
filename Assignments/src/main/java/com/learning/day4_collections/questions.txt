@@ -4,5 +4,5 @@
 4. Write a program to sort HashMap by value.
 5. Write a program to sort Employee objects based on highest salary using Comparator. Employee class{ Double Age; Double Salary; String Name}
 6. Write a program to sort the Student objects based on Score , if the score are same then sort on First Name . Class Student{ String Name; Double Score; Double Age
-7) Print the elements of an array in the decreasing frequency if 2 numbers have same frequency then print the one which came first.
+7. Print the elements of an array in the decreasing frequency if 2 numbers have same frequency then print the one which came first.
 8) Design a Data Structure SpecialStack that supports all the stack operations like push(), pop(), isEmpty(), isFull() and an additional operation getMin() which should return minimum element from the SpecialStack. (Expected complexity ­ O(1))
