@@ -1,0 +1,12 @@
+java2
+2. WAP to sorting string without using string Methods?.
+
+collections
+4) Write a program to sort HashMap by value.
+    hashmap->list->linkedhmap
+7) Print the elements of an array in the decreasing frequency if 2 numbers have same frequency then print the one which came first.
+    hashmap->desc list with comparator
+
+multithreading
+4) Write a program to create a Thread pool of 2 threads where one Thread will print even numbers and other will print odd numbers.
+    2 threads concurrently, how to
