@@ -1,9 +1,5 @@
-package main.java.com.learning.day5_java8.Q4;
+package main.java.com.learning.day5_java8.q4;
 
-import javax.print.DocFlavor;
-import javax.swing.*;
-import javax.swing.text.JTextComponent;
-import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.function.*;
 
