@@ -1,0 +1,4 @@
+rootProject.name = 'gradle-assignment'
+//including the sub module which contains the custom plugin
+include 'show-date-time'
+

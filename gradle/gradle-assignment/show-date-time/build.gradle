@@ -1,0 +1,15 @@
+plugins {
+    id 'groovy'
+}
+
+group 'com.tothenew.plugin'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+}
