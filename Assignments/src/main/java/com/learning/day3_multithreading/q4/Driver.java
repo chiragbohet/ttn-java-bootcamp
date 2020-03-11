@@ -7,10 +7,12 @@ public class Driver {
     public static void main(String[] args) {
         ExecutorService worker = Executors.newFixedThreadPool(2);
 
+        final int LIMIT = 100;
+
         Thread printOdd = new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 0; i < 100; i++) {
+                for (int i = 0; i < LIMIT; i++) {
                     if (i % 2 != 0)
                         System.out.println(i);
 
@@ -27,7 +29,7 @@ public class Driver {
         Thread printEven = new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 0; i < 100; i++) {
+                for (int i = 0; i < LIMIT; i++) {
                     if (i % 2 == 0)
                         System.out.println(i);
                     try {

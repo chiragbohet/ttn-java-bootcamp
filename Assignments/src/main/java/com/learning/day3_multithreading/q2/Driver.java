@@ -3,7 +3,7 @@ package main.java.com.learning.day3_multithreading.q2;
 //Q2. Write a program to create a thread using Thread class and Runnable interface each.
 
 /*
- * This is the Main Driver class which
+ * Main Driver class which
  * actually spawns the two threads.
  */
 public class Driver {
@@ -33,7 +33,7 @@ public class Driver {
 
 /*
  * A simple class which inherits from Thread class
- * and oveerides run() method.
+ * and overrides run() method.
  * */
 class threadUsingClass extends Thread {
     @Override
