@@ -1,5 +1,5 @@
 package main.java.com.learning.day2_java2.q4;
-
+// Q4. WAP to create singleton class.
 enum Singleton {
     INSTANCE;
 

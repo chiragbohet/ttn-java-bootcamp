@@ -1,10 +1,10 @@
 Note: Use Java keywords and concepts in problem solving.
 TODO 1. Create Java classes having suitable attributes for Library management system.Use OOPs concepts in your design.Also try to use interfaces and abstract classes.
-TODO 2. WAP to sorting string without using string Methods?.
+2. WAP to sorting string without using string Methods?.
 TODO 3. WAP to produce NoClassDefFoundError and ClassNotFoundException exception.
 4. WAP to create singleton class.
 5. WAP to show object cloning in java using cloneable and copy constructor both.
-TODO 6. WAP showing try, multi-catch and finally blocks.
+6. WAP showing try, multi-catch and finally blocks.
 7. WAP to convert seconds into days, hours, minutes and seconds.
 8. WAP to read words from the keyboard until the word done is entered. For each word except done, report whether its first character is equal   to  its last character. For the required loop, use a
         a)while statement
@@ -32,7 +32,7 @@ TODO 10. Design classes having attributes and method(only skeleton) for a coffee
          - Places the coffee in the completed order queue
          - Places a notification that order for token is ready
 
-todo 11. Convert the following code so that it uses nested while statements instead of for statements:
+11. Convert the following code so that it uses nested while statements instead of for statements:
     int s = 0;
     int t = 1;
     for (int i = 0; i < 10; i++)
@@ -48,7 +48,8 @@ todo 11. Convert the following code so that it uses nested while statements inst
     System.out.println("S is " + s);
 
 
-TODO 12.What will be the  output on new Child(); ?
+12.What will be the  output on new Child(); ?
+
     class Parent extends Grandparent {
 
         {
